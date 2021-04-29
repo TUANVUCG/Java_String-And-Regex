@@ -7,7 +7,8 @@ import java.util.regex.Pattern;
 public class ClassName {
 
     public static void main(String[] args) {
-        System.out.println("Nhap ten lop hoc "+"Bắt đầu bằng một ký tự chữ hoa C hoặc A hoặc P\n" +
+        System.out.println("Nhập tên lớp học \n"+
+                "Bắt đầu bằng một ký tự chữ hoa C hoặc A hoặc P\n" +
                 "Không chứa các ký tự đặc biệt\n" +
                 "Theo sau ký tự bắt đầu là 4 ký tự số \n" +
                 "Kết thúc phải là 1 trong những ký tự chữ hoa sau: G, H, I, K, L, M");

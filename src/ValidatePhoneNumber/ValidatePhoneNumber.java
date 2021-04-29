@@ -12,7 +12,7 @@ public class ValidatePhoneNumber {
             System.out.println("Nhập một số điện thoại : "+
                     "\nSố điện thoại CHỈ bao gồm 10 hoặc 11 chữ số ");
             String phoneNumber = scanner.nextLine();
-            String regex = "^0[0-9]{9,10}";
+            String regex = "^[(]\\d{2}[)]-[(]0\\d{9}[)]$";
             Pattern pattern = Pattern.compile(regex);
             Matcher matcher = pattern.matcher(phoneNumber);
             if(matcher.matches()){
